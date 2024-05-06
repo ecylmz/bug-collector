@@ -3,8 +3,6 @@ import subprocess
 import json
 import csv
 
-# https://accessibleai.dev/post/extracting-git-data-pydriller/
-
 projects = [
     {'owner': 'hashicorp', 'repo': 'consul', 'label': 'type/bug'},
 ]
