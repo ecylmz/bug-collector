@@ -77,6 +77,7 @@ def get_buggy_commits(fix_commit_sha):
         commits.append(record)
     return buggy_commits
 
+
 def write_json_to_file(data, filename):
     """
     Writes JSON data to a file.
@@ -118,8 +119,7 @@ def get_pr_details(pr_id):
         pr_path
     ]
 
-    print(command)
-    print("ok")
+    # print(command)
     # aşağıdaki komutta sha bilgisine erişilemiyor. PR id'sinden tek tek pr detaylarını da çekmek gerekiyor.
     output = subprocess.run(command, capture_output=True, text=True)
     return json.loads(output.stdout)
@@ -129,10 +129,12 @@ if __name__ == '__main__':
     prs = bug_fix_prs(projects[0]['repo'])
     write_json_to_file(prs, "prs/consul-bug-issues.json")
     data = []
-    csvfile = open('dataset/consul-bugs.csv', 'w', newline='', encoding='utf-8')
+    csvfile = open('consul-non-bugs.csv', 'w', newline='', encoding='utf-8')
     headers = ['sha', 'dmm_unit_size', 'dmm_unit_complexity', 'dmm_unit_interfacing', 'deletions', 'insertions', 'lines']
     c = csv.DictWriter(csvfile, fieldnames=headers)
     c.writeheader()
+
+    pr_fixes_commits = []
     for pr in prs:
         try:
             pr_details = get_pr_details(pr['number'])
@@ -140,8 +142,29 @@ if __name__ == '__main__':
             # data.append(extract_commit_metrics(commit_sha))
             row = extract_commit_metrics(commit_sha)
             c.writerow(row)
+            pr_fixes_commits.append(commit_sha)
             # İşlem yapılacak kod buraya gelecek
         except Exception as e:
+            print(e)
+            # Hata oluştuğunda yapılacak işlemler buraya gelecek
+            continue  # Hata olduğunda döngünün başına dön ve bir sonraki öğeye geç
+    csvfile.close()
+
+    csvfile = open('consul-bugs.csv', 'w', newline='', encoding='utf-8')
+    headers = ['sha', 'dmm_unit_size', 'dmm_unit_complexity', 'dmm_unit_interfacing', 'deletions', 'insertions', 'lines']
+    c = csv.DictWriter(csvfile, fieldnames=headers)
+    c.writeheader()
+
+    for commit_sha in pr_fixes_commits:
+        try:
+            commit = gr.get_commit(commit_sha)
+            buggy_commits = gr.get_commits_last_modified_lines(commit)
+            for bc in buggy_commits.values():
+                for com in bc:
+                    row = extract_commit_metrics(com)
+                    c.writerow(row)
+        except Exception as e:
+            print(e)
             # Hata oluştuğunda yapılacak işlemler buraya gelecek
             continue  # Hata olduğunda döngünün başına dön ve bir sonraki öğeye geç
     csvfile.close()
