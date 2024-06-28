@@ -61,29 +61,29 @@
             {
                 "id": 4613894264,
                 "node_id": "LA_kwDOANeIxs8AAAABEwJweA",
-                "url": "https://api.github.com/repos/hashicorp/consul/labels/backport/1.14",
-                "name": "backport/1.14",
-                "color": "00b587",
+                "url": "https://api.github.com/repos/hashicorp/consul/labels/backport-inactive/1.14",
+                "name": "backport-inactive/1.14",
+                "color": "aaaaaa",
                 "default": false,
-                "description": "Changes are backported to 1.14"
+                "description": "This release series is longer active"
             },
             {
                 "id": 5154802977,
                 "node_id": "LA_kwDOANeIxs8AAAABM0ANIQ",
                 "url": "https://api.github.com/repos/hashicorp/consul/labels/backport/1.15",
                 "name": "backport/1.15",
-                "color": "00b587",
+                "color": "FBCA04",
                 "default": false,
-                "description": "Changes are backported to 1.15"
+                "description": "Deprecated: use backport/ent/1.15"
             },
             {
                 "id": 5593957022,
                 "node_id": "LA_kwDOANeIxs8AAAABTW0Cng",
                 "url": "https://api.github.com/repos/hashicorp/consul/labels/backport/1.16",
                 "name": "backport/1.16",
-                "color": "00b587",
+                "color": "FBCA04",
                 "default": false,
-                "description": "Changes are backported to 1.16"
+                "description": "Deprecated: use backport/ent/1.16"
             }
         ],
         "state": "closed",
@@ -224,29 +224,29 @@
             {
                 "id": 4613894264,
                 "node_id": "LA_kwDOANeIxs8AAAABEwJweA",
-                "url": "https://api.github.com/repos/hashicorp/consul/labels/backport/1.14",
-                "name": "backport/1.14",
-                "color": "00b587",
+                "url": "https://api.github.com/repos/hashicorp/consul/labels/backport-inactive/1.14",
+                "name": "backport-inactive/1.14",
+                "color": "aaaaaa",
                 "default": false,
-                "description": "Changes are backported to 1.14"
+                "description": "This release series is longer active"
             },
             {
                 "id": 5154802977,
                 "node_id": "LA_kwDOANeIxs8AAAABM0ANIQ",
                 "url": "https://api.github.com/repos/hashicorp/consul/labels/backport/1.15",
                 "name": "backport/1.15",
-                "color": "00b587",
+                "color": "FBCA04",
                 "default": false,
-                "description": "Changes are backported to 1.15"
+                "description": "Deprecated: use backport/ent/1.15"
             },
             {
                 "id": 5593957022,
                 "node_id": "LA_kwDOANeIxs8AAAABTW0Cng",
                 "url": "https://api.github.com/repos/hashicorp/consul/labels/backport/1.16",
                 "name": "backport/1.16",
-                "color": "00b587",
+                "color": "FBCA04",
                 "default": false,
-                "description": "Changes are backported to 1.16"
+                "description": "Deprecated: use backport/ent/1.16"
             }
         ],
         "state": "closed",
@@ -387,29 +387,29 @@
             {
                 "id": 4613894264,
                 "node_id": "LA_kwDOANeIxs8AAAABEwJweA",
-                "url": "https://api.github.com/repos/hashicorp/consul/labels/backport/1.14",
-                "name": "backport/1.14",
-                "color": "00b587",
+                "url": "https://api.github.com/repos/hashicorp/consul/labels/backport-inactive/1.14",
+                "name": "backport-inactive/1.14",
+                "color": "aaaaaa",
                 "default": false,
-                "description": "Changes are backported to 1.14"
+                "description": "This release series is longer active"
             },
             {
                 "id": 5154802977,
                 "node_id": "LA_kwDOANeIxs8AAAABM0ANIQ",
                 "url": "https://api.github.com/repos/hashicorp/consul/labels/backport/1.15",
                 "name": "backport/1.15",
-                "color": "00b587",
+                "color": "FBCA04",
                 "default": false,
-                "description": "Changes are backported to 1.15"
+                "description": "Deprecated: use backport/ent/1.15"
             },
             {
                 "id": 5593957022,
                 "node_id": "LA_kwDOANeIxs8AAAABTW0Cng",
                 "url": "https://api.github.com/repos/hashicorp/consul/labels/backport/1.16",
                 "name": "backport/1.16",
-                "color": "00b587",
+                "color": "FBCA04",
                 "default": false,
-                "description": "Changes are backported to 1.16"
+                "description": "Deprecated: use backport/ent/1.16"
             }
         ],
         "state": "closed",
@@ -657,9 +657,9 @@
                 "node_id": "LA_kwDOANeIxs8AAAABTW0Cng",
                 "url": "https://api.github.com/repos/hashicorp/consul/labels/backport/1.16",
                 "name": "backport/1.16",
-                "color": "00b587",
+                "color": "FBCA04",
                 "default": false,
-                "description": "Changes are backported to 1.16"
+                "description": "Deprecated: use backport/ent/1.16"
             }
         ],
         "state": "closed",
@@ -820,9 +820,9 @@
                 "node_id": "LA_kwDOANeIxs8AAAABTW0Cng",
                 "url": "https://api.github.com/repos/hashicorp/consul/labels/backport/1.16",
                 "name": "backport/1.16",
-                "color": "00b587",
+                "color": "FBCA04",
                 "default": false,
-                "description": "Changes are backported to 1.16"
+                "description": "Deprecated: use backport/ent/1.16"
             }
         ],
         "state": "closed",
@@ -945,29 +945,29 @@
             {
                 "id": 4370094878,
                 "node_id": "LA_kwDOANeIxs8AAAABBHpbHg",
-                "url": "https://api.github.com/repos/hashicorp/consul/labels/backport/1.13",
-                "name": "backport/1.13",
-                "color": "00b587",
+                "url": "https://api.github.com/repos/hashicorp/consul/labels/backport-inactive/1.13",
+                "name": "backport-inactive/1.13",
+                "color": "aaaaaa",
                 "default": false,
-                "description": "Changes are backported to 1.13"
+                "description": "This release series is longer active"
             },
             {
                 "id": 4613894264,
                 "node_id": "LA_kwDOANeIxs8AAAABEwJweA",
-                "url": "https://api.github.com/repos/hashicorp/consul/labels/backport/1.14",
-                "name": "backport/1.14",
-                "color": "00b587",
+                "url": "https://api.github.com/repos/hashicorp/consul/labels/backport-inactive/1.14",
+                "name": "backport-inactive/1.14",
+                "color": "aaaaaa",
                 "default": false,
-                "description": "Changes are backported to 1.14"
+                "description": "This release series is longer active"
             },
             {
                 "id": 5154802977,
                 "node_id": "LA_kwDOANeIxs8AAAABM0ANIQ",
                 "url": "https://api.github.com/repos/hashicorp/consul/labels/backport/1.15",
                 "name": "backport/1.15",
-                "color": "00b587",
+                "color": "FBCA04",
                 "default": false,
-                "description": "Changes are backported to 1.15"
+                "description": "Deprecated: use backport/ent/1.15"
             }
         ],
         "state": "closed",
@@ -1061,9 +1061,9 @@
                 "node_id": "LA_kwDOANeIxs8AAAABM0ANIQ",
                 "url": "https://api.github.com/repos/hashicorp/consul/labels/backport/1.15",
                 "name": "backport/1.15",
-                "color": "00b587",
+                "color": "FBCA04",
                 "default": false,
-                "description": "Changes are backported to 1.15"
+                "description": "Deprecated: use backport/ent/1.15"
             }
         ],
         "state": "closed",
@@ -1186,11 +1186,11 @@
             {
                 "id": 4613894264,
                 "node_id": "LA_kwDOANeIxs8AAAABEwJweA",
-                "url": "https://api.github.com/repos/hashicorp/consul/labels/backport/1.14",
-                "name": "backport/1.14",
-                "color": "00b587",
+                "url": "https://api.github.com/repos/hashicorp/consul/labels/backport-inactive/1.14",
+                "name": "backport-inactive/1.14",
+                "color": "aaaaaa",
                 "default": false,
-                "description": "Changes are backported to 1.14"
+                "description": "This release series is longer active"
             }
         ],
         "state": "closed",
@@ -1378,11 +1378,11 @@
             {
                 "id": 4000388787,
                 "node_id": "LA_kwDOANeIxs7ucRaz",
-                "url": "https://api.github.com/repos/hashicorp/consul/labels/backport/1.12",
-                "name": "backport/1.12",
-                "color": "00b587",
+                "url": "https://api.github.com/repos/hashicorp/consul/labels/backport-inactive/1.12",
+                "name": "backport-inactive/1.12",
+                "color": "AAAAAA",
                 "default": false,
-                "description": "Changes are backported to 1.12"
+                "description": "This release series is longer active"
             }
         ],
         "state": "closed",
@@ -2172,11 +2172,11 @@
             {
                 "id": 4000388787,
                 "node_id": "LA_kwDOANeIxs7ucRaz",
-                "url": "https://api.github.com/repos/hashicorp/consul/labels/backport/1.12",
-                "name": "backport/1.12",
-                "color": "00b587",
+                "url": "https://api.github.com/repos/hashicorp/consul/labels/backport-inactive/1.12",
+                "name": "backport-inactive/1.12",
+                "color": "AAAAAA",
                 "default": false,
-                "description": "Changes are backported to 1.12"
+                "description": "This release series is longer active"
             }
         ],
         "state": "closed",
